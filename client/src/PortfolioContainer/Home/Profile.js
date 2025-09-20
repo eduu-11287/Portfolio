@@ -8,6 +8,7 @@ export default function Profile() {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
+                        <div className="colz-icons">
                         <a href='https://www.facebook.com/Eduuh254'>
                             <i className="fi fi-brands-facebook"></i>
                         </a>
@@ -26,6 +27,7 @@ export default function Profile() {
                         <a href='https://github.com/eduu-11287'>
                             <i className="fi fi-brands-github"></i>
                         </a>
+                        </div>
                     </div>
                     <div className='profile-details-name'>
                         <span className='primariy-text'>
@@ -58,6 +60,18 @@ export default function Profile() {
                             </span>
                         </span>
                     </div>
+                    <div className='profile-options'>
+                        <button className="btn primary-btn">
+                            {" "}
+                            Hire Me{" "}
+                        </button>
+                        <a href='EdwinNgigicv.pdf' download='EdwinNgigicv.pdf'>
+                            <button className='btn highlighted-btn'> Get Resume</button>
+                        </a>
+                    </div>
+                </div>
+                <div className='profile-picture'>
+                    <div className='profile-picture-background'></div>
                 </div>
             </div>
 
